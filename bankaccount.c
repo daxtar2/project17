@@ -7,7 +7,7 @@ int main(void)
 	int password_c;
 	int input_t = 0;
 	int withdrawal;
-	/*
+	
 	printf("Please input your user_name.\n");
 	scanf_s("%d", &user_name);
 
@@ -31,7 +31,7 @@ int main(void)
 
 		}
 	}
-	*/
+	
 	printf("Please input The amount of withdrawal.\n");
 	scanf_s("%d", &withdrawal);
 	if ( withdrawal >= 100 && withdrawal <= 1000 && withdrawal % 100 == 0) {
